@@ -1,6 +1,7 @@
 {
   "name": "singlepage",
   "version": "0.1.0",
+  "homepage": "https://rdollish.github.io/AccessibilityGuidelines/",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.6",
