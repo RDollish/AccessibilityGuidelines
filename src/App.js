@@ -309,7 +309,10 @@ export default function App() {
           </ListItem>
         </List>
       </Drawer>
-      <Typography sx={{ fontSize: 50, textAlign: 'center' }}>Accessibility in Web Development</Typography>
+      <Typography sx={{     fontSize: {
+      xs: '28px',  // adjust font size for extra small screens
+      md: '50px',  // default font size for larger screens
+    }, textAlign: 'center' }}>Accessibility in Web Development</Typography>
       <Box sx={{
         display: 'flex',
         flexDirection: window.innerWidth <= 767 ? 'column' : 'row',
