@@ -7,3 +7,19 @@
   flex-direction: row;
   justify-content: center;
 }
+
+@media (max-width: 767px) { /* apply styles only if screen width is 767px or less */
+  .card {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card:first-child {
+    margin-top: 20px;
+  }
+  .card:not(:first-child) {
+    display: none; /* hide all cards except the first one */
+  }
+  .css-1qsxih2 {
+    display: none;
+    }
+}
