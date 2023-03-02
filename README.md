@@ -2,6 +2,8 @@
 
 This project is a single-page web app that provides an overview of web accessibility and the Web Content Accessibility Guidelines (WCAG).
 
+It was a challenge to see what I could make in a single day, while also utilizing methods for changing the experience for a user depending on whether they are on a large screen or a small screen device. Give it a try!
+
 It is published at https://rdollish.github.io/AccessibilityGuidelines/
 
 ## Technologies Used
